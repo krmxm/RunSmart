@@ -1,4 +1,42 @@
 .carousel {
+    &__wrapper {
+        width: 601px;
+        display: block;
+        margin: 0 auto;
+    }
+    &__img {
+        display: block;
+        width: 114px;
+        height: 114px;
+        margin: 0 auto;
+        margin-bottom: 19px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__text {
+        text-align: center;
+    }
+    &__subtitle {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.57;
+        color: #3a3a3a;
+        margin-bottom: 12px;
+
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        color: #3a3a3a;
+        text-align: center;
+    }
+}
+
+.carousel {
     padding: 81px 0;
     &__inner {
         position: relative;
